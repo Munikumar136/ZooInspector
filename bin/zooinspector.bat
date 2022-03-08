@@ -68,7 +68,7 @@ if "%JAVACMD%"=="" set JAVACMD=java
 
 if "%REPO%"=="" set REPO=C:\zooinspector-pkg-tls1.2\repo\jar_files
 
-set CLASSPATH="%BASEDIR%"\conf;"%REPO%"\log4j-1.2.17.jar;"%REPO%"\slf4j-api-1.7.30.jar;"%REPO%"\slf4j-log4j12-1.7.30.jar;"%REPO%"\zookeeper-3.7.0.jar;"%REPO%"\zookeeper-jute-3.7.0.jar;"%REPO%"\netty-3.10.6.Final.jar;"%REPO%"\commons-lang-2.1.jar;"%REPO%"\netty-all-4.1.59.Final.jar;"%REPO%"\netty-handler-4.1.59.Final.jar;"%REPO%"\guava-18.0.jar;"%REPO%"\zookeeper-contrib-zooinspector-3.7.0.jar
+set CLASSPATH="%BASEDIR%"\conf;"%REPO%"\log4j-1.2.17.jar;"%REPO%"\slf4j-api-1.7.30.jar;"%REPO%"\slf4j-log4j12-1.7.30.jar;"%REPO%"\zookeeper-3.7.0.jar;"%REPO%"\zookeeper-jute-3.7.0.jar;"%REPO%"\commons-lang-2.1.jar;"%REPO%"\netty-all-4.1.59.Final.jar;"%REPO%"\netty-handler-4.1.59.Final.jar;"%REPO%"\guava-18.0.jar;"%REPO%"\zookeeper-contrib-zooinspector-3.7.0.jar
 
 set EXTRA_JVM_ARGUMENTS=-Xms512m -Xmx512m -Dzookeeper.clientCnxnSocket=org.apache.zookeeper.ClientCnxnSocketNetty -Dzookeeper.ssl.keyStore.location=../conf/stores/domain -Dzookeeper.ssl.keyStore.password=Travelport1StorePass -Dzookeeper.ssl.trustStore.location=../conf/stores/domainTrust -Dzookeeper.ssl.trustStore.password=Travelport1StorePass -Dzookeeper.ssl.keyStore.type=jks -Dzookeeper.ssl.trustStore.type=jks -Dzookeeper.ssl.hostnameVerification=false -Dzookeeper.ssl.quorum.hostnameVerification=false
 
